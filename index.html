@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trapped</title>
+     <!-- linking css -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- heading -->
+    <h1>Trapped</h1>
+
+    <!-- changing text as story changes -->
+    <p id="paragraph1">You have stumbled upon a scary warehouse while riding your bike</p>
+    <p id="paragraph2">You wonder where you have come</p>
+    <p id="paragraph3">Do you want go in or leave?</p>
+
+    <!-- image changing -->
+    <img id="image" src="images/scene 1.avif" alt="Story Image" width="250">
+    <img id="image2" src="" width="300" style="display:none;">
+
+    <!-- image hover -->
+     <div id="hover"> I am the largest 4-digit number that you can read, but if you flip me upside down, I become a completely different, smaller number. What am I?</div>
+
+    <!-- buttons -->
+    <button id="option1">Enter the Warehouse</button>
+    <button id="option2">Leave the Warehouse</button>
+
+    <!-- puzzle/code input for lock combo -->
+     <div id="secret_code" style="display:none;">
+        <input type="text" id="try_code" placeholder="Enter code">
+        <button id="submit">Submit</button>
+    </div>
+
+    <!-- inventory list -->
+    <h2>Inventory</h2>
+    <ul id="inventoryList">
+    </ul>
+
+    <!-- linking script -->
+    <script src="script.js" defer></script>
+
+</body>
+</html>

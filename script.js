@@ -88,7 +88,7 @@ function checkCode(){
     try {
         //using regex to check code is only numbers
         if (!/^\d+$/.test(code)) {
-            throw Error("Enter only numbers!");
+            throw new Error("Enter only numbers!");
         }
         if(try_code.value === "9999"){
         alert("Correct!");

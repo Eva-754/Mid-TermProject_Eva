@@ -87,7 +87,7 @@ function addToInventory(item){
 function checkCode(){
     try {
         //using regex to check code is only numbers
-        if (!/^\d+$/.test(code)) {
+        if (!/^\d+$/.test(try_code.value)) {
             throw new Error("Enter only numbers!");
         }
         if(try_code.value === "9999"){

@@ -101,7 +101,7 @@ function checkCode(){
         showScene("You could not unlock the door.", "The floor starts to become hollow, a whirlpool starts to emerge", "You have failed to escape", "scene 13.jpg", null, null, null);
     }
     } catch(err) {
-        alert("Please enter an integer, or refresh the page to play again")
+        alert(err.message)
     }
     
 }
